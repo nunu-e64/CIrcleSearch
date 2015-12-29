@@ -1,0 +1,236 @@
+/*/////////IE対策////////////////////*/
+    * html #contents {  
+       background-position: expression('10px '+this.parentNode.scrollTop + 'px');  
+    } 
+/*///////////////////////////////////*/
+     
+body, table, input, textarea, select, option {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 1em;
+}
+table{
+    width: 80%;
+}
+a {
+    text-decoration:none;
+}
+a:hover { color: #FF2000;/*カーソルオーバー時の文字色*/}
+
+#main, #footer{
+    width: 840px;
+}
+
+body{
+	font-size:11pt;
+	background-color:#CCFFFF;
+	background-image: url(back1_2.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;  
+	line-height: 1.5;
+}
+
+#main{
+	margin:auto;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	border:#FF9900;
+}
+#header a{	
+	color:green;
+}
+#header{	
+	color:green;
+	font-size: 60px;
+	font-style:none;
+	/*background-image:url(logo_b2_2.png);*/
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#register{	
+	text-align:right;
+	margin-bottom:30px;
+}
+#register a{	
+	 color:red;
+}
+#footer{	
+	text-align:right;
+	margin:auto;
+}
+.input{	
+	margin-bottom:50px;
+}
+.submit{
+}
+.change_detail{		
+}
+
+.backlink{
+        a visited: blue;
+		color:blue;
+		text-align:left;
+		font-size:11pt;
+		width:70%;
+		margin-left:auto;
+		margin-right: auto;
+}
+
+.item{
+	text-align:left;
+	color:white;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.item td{
+	 color:black;
+	 border-width:1px;
+	 border-style:solid;
+ 	border-color:black;
+}
+
+
+#a{
+	color:green;
+	font-style:italic;
+}
+#result{
+	 margin-left:auto;
+	 margin-right:auto;	
+	 margin-top:40px;
+	 margin-bottom:40px;
+	 width:80%;
+	 border-width:1px;
+	 border-style:solid;
+ 	border-color:black;
+	 background-color:white;
+	 font-size:11pt;
+	 vertical-align: middle;
+}
+#result tr{	
+	 border-width:1px;
+	 border-style:solid;
+}
+#result td{	
+	 height: 50px;
+	 border-width:1px;
+	 border-style:solid;
+	 padding:10px;
+}
+#result th{	
+	font-style:italic;
+	border-width:1px;
+	border-style:solid;
+	 padding:8px;
+}
+.name{	
+	text-align:center;
+	width:30%;
+	font-size:18px;
+	font-weight:bold;
+}
+.content{	
+	text-align:left;
+	color:black;
+}
+#editpass{
+	text-align: right;
+	font-size: 80%;
+	/*border:1px black solid;*/
+}
+
+#pagelink{
+	font-size:12pt;
+	font-weight: bold;
+}
+#pagelink a{
+	color:#FF6600;
+}
+
+#circledata{
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:40px;
+ margin-bottom:40px;
+ width:70%; 
+ border-width:1px;
+ border-style:solid;
+ border-color:black;
+ background-color:white;
+ font-size:11pt;
+}
+#circledata th{
+ border-width:1px;
+ border-style:solid;
+ color: red;
+ border-color:black;
+}
+#circledata tr{
+  border-width:1px;
+  border-style:solid;
+}
+#circledata td{
+  border-width:1px;
+  border-style:solid;
+  padding:8px;
+}
+#circledata .koumoku{
+	width: 20%;
+}
+
+#old{
+	text-align: center;
+	font-size: 10pt;
+}
+
+#old h1{
+	text-align:center;
+}
+#old h1 a[href]{
+	color: rgb(0,0,0);  
+	text-decoration: none;	
+}
+#old h1 a[href]:hover { 
+	color: rgb(0,0,0);/*カーソルオーバー時の文字色*/
+}
+
+#old h2{
+	margin-left: 20px;
+}
+
+.maintext{
+	font-size:11pt;
+	line-height:1.5; 
+}
+
+table.write{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	border-style:solid; 
+	border-width:1px;
+    background-color:white;
+    width:70%;
+}
+.write tr{
+	border-style:solid; 
+	border-width:1px;
+	padding:6px;
+}
+.write td{
+	border-style:solid; 
+	border-width:1px;
+	padding: 6px;
+}
+td.col1{
+	width: 20%;
+} 
+
+
+.formerror{
+	color:red; 
+}
+
+
+
